@@ -17,11 +17,11 @@ rake kandan:boot_hubot
 rake kandan:hubot_access_key
 ```
 * Take note of the output of the command `rake kandan:hubot_access_key` as you will need it later
-* Download [Hubot from GitHub](https://github.com/github/hubot/archive/v2.4.7.zip)
-* Unzip hubot-2.4.7
+* Download [Hubot from GitHub](https://github.com/github/hubot/archive/v2.6.0.zip)
+* Unzip hubot-2.6.0
 
 ```
-cd hubot-2.4.7
+cd hubot-2.6.0
 npm install
 make package
 cd hubot

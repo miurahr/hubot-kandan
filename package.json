@@ -13,7 +13,7 @@
     "url" : "http://github.com/kandanapp/hubot-kandan.git"
   },
   "dependencies": {
-    "hubot": "2.4.7",
+    "hubot": "2.6.0",
     "faye": "0.8.2"
   },
   "devDependencies": {
