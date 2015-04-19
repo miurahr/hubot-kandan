@@ -73,7 +73,7 @@ class KandanStreaming extends EventEmitter
     @client.disable('websocket')
     authExtension = {
       outgoing: (message, callback) =>
-        if message.channel == "/meta/subscribe"
+        if message.channel == "/meta/subscribe" or message.channel == "meta/handshake"
           message['ext'] = { auth_token: @token }
         callback(message)
     }
