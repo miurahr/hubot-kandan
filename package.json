@@ -12,8 +12,10 @@
     "type" : "git",
     "url" : "http://github.com/kandanapp/hubot-kandan.git"
   },
+  "peerDependencies": {
+    "hubot": "2.12.0"
+  },
   "dependencies": {
-    "hubot": "2.12.0",
     "faye": "1.0.1"
   },
   "devDependencies": {
